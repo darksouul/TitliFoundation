@@ -31,9 +31,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- <link href="assets/css/bootstrap.css" rel="stylesheet"> -->
+  <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
   <link href="assets/css/style.css" rel="stylesheet">
   <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
+  
   <style>
     .helper h1 {
       text-align: left;
@@ -57,15 +60,9 @@
 </head>
 
 <body>
-
-  <!-- ======= Top Bar ======= -->
-
-
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-      <!-- <h1 class="logo"><a href="index.html">BizLand<span>.</span></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
       <a href="index.html" class="logo"><img src="assets/img/Vector.png" alt=""></a>
       <nav id="navbar" class="navbar">
         <ul>
@@ -81,15 +78,14 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
         </ul>
-
         <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
+      </nav>
     </div>
   </header>
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Header END ======= -->
+
+  <!-- ======= Display Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <h1 style="font-family: 'Playfair Display', serif;">We <span>Empower</span> Communities with Sustainable Menstrual
@@ -101,10 +97,56 @@
         <a href="#about" class="btn-get-started scrollto">Get Involved</a>
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
+  <!-- Display End -->
 
   <main id="main" style="background: #F9F7F7;">
-    <!-- ======= Featured Services Section ======= -->
+
+    <!-- ======= Our Work Section ======= -->
+    <section class="our_work" id="services" style="background-color: white">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <h1 class="work-style">Our Work</h1>
+            <h4 class="work-content-style">
+              At our organization, our main goal is to combat period poverty and provide sustainable menstrual products
+              to underprivileged communities.
+              We are committed to improving access to menstrual care for all women and girls, regardless of their
+              socio-economic status.
+              In addition, we work to educate individuals in urban areas about the benefits of sustainable menstrual
+              products
+              and raise awareness about the importance of switching to these products for a more sustainable and
+              healthier future.
+            </h4>
+          </div>
+
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-work">Breaking social stigmas
+              <span class="glyphicon glyphicon-arrow-right text-right"></span>
+            </button>
+          </div>
+
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-work">Education on Reproductive Health
+              <span class="glyphicon glyphicon-arrow-right text-right"></span>
+            </button>
+          </div>
+
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-work">Provide a hygienic and economic period solution
+              <span class="glyphicon glyphicon-arrow-right text-right"></span>
+            </button>
+          </div>
+          <div class="col-sm-6">
+            <button type="button" class="btn btn-work">Awareness on sustainable menstruation
+              <span class="glyphicon glyphicon-arrow-right text-right"></span>
+            </button>
+          </div>
+        </div>
+    </section>
+    <!-- ======= Our Work Section End======= -->
+
+    <!-- ======= Card Section ======= -->
     <div class="cards-wrapper" data-aos="zoom-in">
       <div class="card-grid-space">
         <a class="card noHover" href="#" style="--bg-img: url('../img/image7.png')">
@@ -139,6 +181,9 @@
         </a>
       </div>
     </div>
+    <!-- ======= Card Section End ======= -->
+
+    <!-- ======= Our Impact Section ======= -->
     <section id="change" style="background: white;">
       <div data-aos="fade-up">
         <div class="section-title">
@@ -197,7 +242,6 @@
                       fugiat commodi nemo suscipit ad!
                     </p>
                     <i class="bx bxs-quote-alt-right quote-icon-right style_helper2"></i>
-
                   </div>
                 </div>
                 <!-- <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
@@ -214,7 +258,9 @@
         </div>
       </div>
     </section>
-  </main><!-- End #main -->
+    <!-- ======= Our Impact End ======= -->
+  </main>
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -233,7 +279,6 @@
               </li>
             </ul>
           </div>
-
           <div class="col-lg-4 col-md-6 footer-links">
             <h4>CONTACT US</h4>
             <ul>
@@ -246,7 +291,6 @@
                   Nagar, Khojanpur,Faizabad, Uttar Pradesh - 224001</a></li>
             </ul>
           </div>
-
           <div class="col-lg-3 col-md-6 footer-links">
             <h4 class="special">OUR SOCIAL NETWORKS</h4>
             <div class="social-links mt-3">
@@ -256,7 +300,6 @@
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
             </div>
           </div>
-
           <div style="border-top: 1px solid #FFC5DE;">
             <div class="copyright">
               TITLI FOUNDATION
@@ -269,7 +312,8 @@
 
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
 
   <!-- Vendor JS Files -->
@@ -293,7 +337,5 @@
       document.querySelector(".testi-img .circle").style.backgroundColor = activeItem.getAttribute("data-color");
     })
   </script>
-
 </body>
-
 </html>
